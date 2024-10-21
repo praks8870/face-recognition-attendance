@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance System</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            margin: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Attendance Management System</h1>
+    <button id="start-camera">Start Camera</button>
+    <button id="stop-camera">Stop Camera</button>
+    
+    <div id="video-container" style="display:none;">
+        <h2>Live Video Feed</h2>
+        <img id="video" src="" style="width: 100%; max-width: 600px;">
+    </div>
+
+    <script>
+        document.getElementById('start-camera').onclick = function() {
+            document.getElementById('video').src = '/video_feed'; // Set the source to the video feed
+            document.getElementById('video-container').style.display = 'block'; // Show video container
+        };
+
+        document.getElementById('stop-camera').onclick = function() {
+            document.getElementById('video').src = ''; // Clear the video source
+            document.getElementById('video-container').style.display = 'none'; // Hide video container
+        };
+    </script>
+</body>
+</html>

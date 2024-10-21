@@ -75,20 +75,20 @@ Ensure you have the following installed on your system:
 
 ## Key Files
 
-**app.py: The main Flask application responsible for managing routes, processing camera feeds, and handling face recognition.**
-**uploads/: A folder containing the reference images used for face recognition.**
-**status_report.html: The template for generating the attendance status report.**
+- **app.py**: The main Flask application responsible for managing routes, processing camera feeds, and handling face recognition.
+- **uploads/**: A folder containing the reference images used for face recognition.
+- **status_report.html**: The template for generating the attendance status report.
 
 ## Sample Data
 
 You can find sample attendance data for multiple users logged during September 2024, excluding Sundays.
 
 ## Attendance Reports
-    - Working Days: All weekdays (Monday to Saturday) except Sundays.
-    - Worked Days: Days on which the user marked "in" attendance.
-    - Leaves: The difference between working days and worked days.
-    - Late: Days where the user logged "in" after 9:15 AM.
-    - Early Leave: Days where the user logged "out" before 6:00 PM.
+- Working Days: All weekdays (Monday to Saturday) except Sundays.
+- Worked Days: Days on which the user marked "in" attendance.
+- Leaves: The difference between working days and worked days.
+- Late: Days where the user logged "in" after 9:15 AM.
+- Early Leave: Days where the user logged "out" before 6:00 PM.
     
 ## Future Improvements
 

@@ -99,4 +99,4 @@ You can find sample attendance data for multiple users logged during September 2
 
 ## Conclusion
 
-This project showcases how to build an effective face recognition system for attendance management using Flask, PostgreSQL, and OpenCV. It's a powerful demonstration of your ability to combine real-time video processing with database management and report generation.
+This project showcases how to build an effective face recognition system for attendance management using Flask, PostgreSQL, and OpenCV. It's a powerful demonstration of my ability to combine real-time video processing with database management and report generation.
